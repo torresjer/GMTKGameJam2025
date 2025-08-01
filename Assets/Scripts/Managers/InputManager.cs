@@ -38,6 +38,7 @@ public class InputManager : Singleton<InputManager>
     void Update()
     {
         CheckMouseInput();
+        Debug.DrawRay(MouseWorldPosition, Vector3.up * 0.5f, Color.red);
     }
     private void OnDisable()
     {
@@ -71,12 +72,10 @@ public class InputManager : Singleton<InputManager>
     }
     void MouseWorldPositionCalculations()
     {
-        Ray mouseRay = Camera.main.ScreenPointToRay(MouseScreenPositon);
+        Vector3 screenPos = new Vector3(MouseScreenPositon.x, MouseScreenPositon.y, 0f);
+        MouseWorldPosition = Camera.main.ScreenToWorldPoint(screenPos);
+        MouseWorldPosition.z = 0f; 
 
-        //if (HorizontalPlane.Raycast(mouseRay, out float distance))
-        
-          //  MouseWorldPosition = mouseRay.GetPoint(distance);
-        
     }
     void SetMovementInput(InputAction.CallbackContext ctx)
     {

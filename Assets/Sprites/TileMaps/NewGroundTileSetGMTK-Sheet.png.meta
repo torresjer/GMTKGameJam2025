@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: f0a4e4284d26ed6408773eb60a6575f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4280905312044765241
+    second: NewGroundTileSetGMTK-Sheet_0
+  - first:
+      213: 6764371355779778149
+    second: NewGroundTileSetGMTK-Sheet_1
+  - first:
+      213: -6143938744104485510
+    second: NewGroundTileSetGMTK-Sheet_2
+  - first:
+      213: -6554428923346425946
+    second: NewGroundTileSetGMTK-Sheet_3
+  - first:
+      213: 8182805638651955440
+    second: NewGroundTileSetGMTK-Sheet_4
+  - first:
+      213: -4346293200076552498
+    second: NewGroundTileSetGMTK-Sheet_5
+  - first:
+      213: -4432898773330333816
+    second: NewGroundTileSetGMTK-Sheet_6
+  - first:
+      213: -4224372392074437949
+    second: NewGroundTileSetGMTK-Sheet_7
+  - first:
+      213: 1559090981235362613
+    second: NewGroundTileSetGMTK-Sheet_8
+  - first:
+      213: -7271778554332183966
+    second: NewGroundTileSetGMTK-Sheet_9
+  - first:
+      213: 7546764456553976227
+    second: NewGroundTileSetGMTK-Sheet_10
+  - first:
+      213: -3980718280389193201
+    second: NewGroundTileSetGMTK-Sheet_11
+  - first:
+      213: -6732449827985414841
+    second: NewGroundTileSetGMTK-Sheet_12
+  - first:
+      213: -1245718839633571410
+    second: NewGroundTileSetGMTK-Sheet_13
+  - first:
+      213: -6902701533407528630
+    second: NewGroundTileSetGMTK-Sheet_14
+  - first:
+      213: -4190091235535192835
+    second: NewGroundTileSetGMTK-Sheet_15
+  - first:
+      213: 7253534960001293963
+    second: NewGroundTileSetGMTK-Sheet_16
+  - first:
+      213: -6040129303853737849
+    second: NewGroundTileSetGMTK-Sheet_17
+  - first:
+      213: -6290543608712010700
+    second: NewGroundTileSetGMTK-Sheet_18
+  - first:
+      213: 8884258892879071441
+    second: NewGroundTileSetGMTK-Sheet_19
+  - first:
+      213: -7371522890038475990
+    second: NewGroundTileSetGMTK-Sheet_20
+  - first:
+      213: 3242325689274010199
+    second: NewGroundTileSetGMTK-Sheet_21
+  - first:
+      213: -3045752621191555067
+    second: NewGroundTileSetGMTK-Sheet_22
+  - first:
+      213: -2304606057786410739
+    second: NewGroundTileSetGMTK-Sheet_23
+  - first:
+      213: -8306912553931797809
+    second: NewGroundTileSetGMTK-Sheet_24
+  - first:
+      213: -7154819939588975246
+    second: NewGroundTileSetGMTK-Sheet_25
+  - first:
+      213: -4991022266744091198
+    second: NewGroundTileSetGMTK-Sheet_26
+  - first:
+      213: -6751418523860884570
+    second: NewGroundTileSetGMTK-Sheet_27
+  - first:
+      213: -8436998109618743017
+    second: NewGroundTileSetGMTK-Sheet_28
+  - first:
+      213: 7893446504693701420
+    second: NewGroundTileSetGMTK-Sheet_29
+  - first:
+      213: 57407934747640900
+    second: NewGroundTileSetGMTK-Sheet_30
+  - first:
+      213: -3741867612047196937
+    second: NewGroundTileSetGMTK-Sheet_31
+  - first:
+      213: 4472436179987684317
+    second: NewGroundTileSetGMTK-Sheet_32
+  - first:
+      213: 4694363504739232595
+    second: NewGroundTileSetGMTK-Sheet_33
+  - first:
+      213: -6476928241780948703
+    second: NewGroundTileSetGMTK-Sheet_34
+  - first:
+      213: 2593604667656342781
+    second: NewGroundTileSetGMTK-Sheet_35
+  - first:
+      213: 2630997150447144962
+    second: NewGroundTileSetGMTK-Sheet_36
+  - first:
+      213: -6366069133709955594
+    second: NewGroundTileSetGMTK-Sheet_37
+  - first:
+      213: -4219819090246883805
+    second: NewGroundTileSetGMTK-Sheet_38
+  - first:
+      213: 6187405104936458205
+    second: NewGroundTileSetGMTK-Sheet_39
+  - first:
+      213: 6311879727547769559
+    second: NewGroundTileSetGMTK-Sheet_40
+  - first:
+      213: 1393727729546394311
+    second: NewGroundTileSetGMTK-Sheet_41
+  - first:
+      213: 6479042865198395964
+    second: NewGroundTileSetGMTK-Sheet_42
+  - first:
+      213: 5299618229351510541
+    second: NewGroundTileSetGMTK-Sheet_43
+  - first:
+      213: -4007719162216048878
+    second: NewGroundTileSetGMTK-Sheet_44
+  - first:
+      213: 6491317556891577273
+    second: NewGroundTileSetGMTK-Sheet_45
+  - first:
+      213: 3501691712262032646
+    second: NewGroundTileSetGMTK-Sheet_46
+  - first:
+      213: 1232742462311852107
+    second: NewGroundTileSetGMTK-Sheet_47
+  - first:
+      213: -9196840586818519152
+    second: NewGroundTileSetGMTK-Sheet_48
+  - first:
+      213: -8448748858000987623
+    second: NewGroundTileSetGMTK-Sheet_49
+  - first:
+      213: -1048397687967391501
+    second: NewGroundTileSetGMTK-Sheet_50
+  - first:
+      213: 6510257841353946082
+    second: NewGroundTileSetGMTK-Sheet_51
+  - first:
+      213: 2221710398016979629
+    second: NewGroundTileSetGMTK-Sheet_52
+  - first:
+      213: 1664591644775147589
+    second: NewGroundTileSetGMTK-Sheet_53
+  - first:
+      213: 5291408993097947496
+    second: NewGroundTileSetGMTK-Sheet_54
+  - first:
+      213: 2053655344143181608
+    second: NewGroundTileSetGMTK-Sheet_55
+  - first:
+      213: 2369504680152708179
+    second: NewGroundTileSetGMTK-Sheet_56
+  - first:
+      213: -4517984546408267895
+    second: NewGroundTileSetGMTK-Sheet_57
+  - first:
+      213: -9135670464617044871
+    second: NewGroundTileSetGMTK-Sheet_58
+  - first:
+      213: 5531264557715249435
+    second: NewGroundTileSetGMTK-Sheet_59
+  - first:
+      213: -5935532290346111744
+    second: NewGroundTileSetGMTK-Sheet_60
+  - first:
+      213: 841825329258554549
+    second: NewGroundTileSetGMTK-Sheet_61
+  - first:
+      213: -1781761547535232375
+    second: NewGroundTileSetGMTK-Sheet_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878f45c078787494884e502d1727f0f9
+      internalID: -1856798034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea62b1cca5241240ad8a8a4d365c818
+      internalID: -1528034948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebf118b3e107f548aefe41bdd32c2d8
+      internalID: 951344930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7085a2decec5c2445a9eee0af9eb49d6
+      internalID: 1548649865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebcf0040a837b84c93beadb3ffe8b3c
+      internalID: 777751083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ad8e7cae172b34a94166902b4e1f0c
+      internalID: 1419695563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bebf7b895bd8140868d7c94d0390cb
+      internalID: 522276300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ae9c34e5f2f09469296f8e5ecd1e3d
+      internalID: 779904777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f82d1e5cde58124a84a54e3a26bfc13
+      internalID: 844960619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729fbd730da46f747a7c2e8e1b236fe0
+      internalID: 1482159961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f7fd06d97d45349bfac2191e120d13
+      internalID: -250463772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5536041bdc9f94da11848d31efe375
+      internalID: -227925350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c795b01c2e23afd40846728ffea411a7
+      internalID: 1852939185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e78833977425b4eb529426acf23fcf
+      internalID: -1034981592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4609b7e487398d3488cb83be69a68862
+      internalID: -1958851598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52feda05f880f8e44b7c02f3db803d2a
+      internalID: 691883399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a2557aeb159c04292633e1a70cb242
+      internalID: 643197391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e343e4f925c744f8f779aa6f502377
+      internalID: 1912339768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059b8221403145146bdbfd017908cc73
+      internalID: -1984440163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855f72e7393a03b4c94bb93c61811591
+      internalID: -973430079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGroundTileSetGMTK-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668ac7ff63a00264bb8b01985cefe82e
+      internalID: -257904926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 82b52018675b34c4497316695eb24108
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NewGroundTileSetGMTK-Sheet_0: -1856798034
+      NewGroundTileSetGMTK-Sheet_1: -1528034948
+      NewGroundTileSetGMTK-Sheet_10: -250463772
+      NewGroundTileSetGMTK-Sheet_11: -227925350
+      NewGroundTileSetGMTK-Sheet_12: 1852939185
+      NewGroundTileSetGMTK-Sheet_13: -1034981592
+      NewGroundTileSetGMTK-Sheet_14: -1958851598
+      NewGroundTileSetGMTK-Sheet_15: 691883399
+      NewGroundTileSetGMTK-Sheet_16: 643197391
+      NewGroundTileSetGMTK-Sheet_17: 1912339768
+      NewGroundTileSetGMTK-Sheet_18: -1984440163
+      NewGroundTileSetGMTK-Sheet_19: -973430079
+      NewGroundTileSetGMTK-Sheet_2: 951344930
+      NewGroundTileSetGMTK-Sheet_20: -257904926
+      NewGroundTileSetGMTK-Sheet_3: 1548649865
+      NewGroundTileSetGMTK-Sheet_4: 777751083
+      NewGroundTileSetGMTK-Sheet_5: 1419695563
+      NewGroundTileSetGMTK-Sheet_6: 522276300
+      NewGroundTileSetGMTK-Sheet_7: 779904777
+      NewGroundTileSetGMTK-Sheet_8: 844960619
+      NewGroundTileSetGMTK-Sheet_9: 1482159961
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

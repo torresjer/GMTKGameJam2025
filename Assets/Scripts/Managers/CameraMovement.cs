@@ -9,7 +9,7 @@ public class CameraMovement : MonoBehaviour
     float cameraZPos = -10.0f;
   
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         Vector3 cameraFollowTarget = GetCameraFollowTargetFunc();
         cameraFollowTarget.z = cameraZPos;

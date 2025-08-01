@@ -402,6 +402,20 @@ namespace ReformEnt
                 triangles[tIndex + 5] = vIndex2;
             }
         }
+        public static class PixelMath
+        {
+            public static Vector3 RoundToPixel(Vector3 nextPos, int PPU)
+            {
+                float unitsPerPixel = 1.0f / PPU;
+                Vector3 vectorRounded = new Vector3(
+                    Mathf.Round(nextPos.x * unitsPerPixel),
+                    Mathf.Round(nextPos.y * unitsPerPixel),
+                    nextPos.z
+                );
+
+                return vectorRounded / PPU;
+            }
+        }
     }
 
 
