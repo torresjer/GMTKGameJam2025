@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 90da30b64d282b64d89fe9877554740d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8874627361052434716
+    second: Character Design Terry double walking frames-Sheet_0
+  - first:
+      213: -2301577369594917647
+    second: Character Design Terry double walking frames-Sheet_1
+  - first:
+      213: -3268231247372514528
+    second: Character Design Terry double walking frames-Sheet_2
+  - first:
+      213: 2233379946317185267
+    second: Character Design Terry double walking frames-Sheet_3
+  - first:
+      213: 7964107333704547318
+    second: Character Design Terry double walking frames-Sheet_4
+  - first:
+      213: -9198013386361867866
+    second: Character Design Terry double walking frames-Sheet_5
+  - first:
+      213: 5529936742363443895
+    second: Character Design Terry double walking frames-Sheet_6
+  - first:
+      213: 3345415497431978082
+    second: Character Design Terry double walking frames-Sheet_7
+  - first:
+      213: -5941820144700318533
+    second: Character Design Terry double walking frames-Sheet_8
+  - first:
+      213: 8335996328110673634
+    second: Character Design Terry double walking frames-Sheet_9
+  - first:
+      213: -4522096179989161190
+    second: Character Design Terry double walking frames-Sheet_10
+  - first:
+      213: 6125998567907412599
+    second: Character Design Terry double walking frames-Sheet_11
+  - first:
+      213: -38552204169912627
+    second: Character Design Terry double walking frames-Sheet_12
+  - first:
+      213: 2817736607304888728
+    second: Character Design Terry double walking frames-Sheet_13
+  - first:
+      213: -8428845162616961484
+    second: Character Design Terry double walking frames-Sheet_14
+  - first:
+      213: 913279862003455917
+    second: Character Design Terry double walking frames-Sheet_15
+  - first:
+      213: -2034252073192576936
+    second: Character Design Terry double walking frames-Sheet_16
+  - first:
+      213: -5234276113433340996
+    second: Character Design Terry double walking frames-Sheet_17
+  - first:
+      213: -8330499352301415733
+    second: Character Design Terry double walking frames-Sheet_18
+  - first:
+      213: 5978724395656527145
+    second: Character Design Terry double walking frames-Sheet_19
+  - first:
+      213: -8928380036862161934
+    second: Character Design Terry double walking frames-Sheet_20
+  - first:
+      213: -6320420716308873526
+    second: Character Design Terry double walking frames-Sheet_21
+  - first:
+      213: 8888574167210689366
+    second: Character Design Terry double walking frames-Sheet_22
+  - first:
+      213: 7846062441764826332
+    second: Character Design Terry double walking frames-Sheet_23
+  - first:
+      213: -3497053790883382735
+    second: Character Design Terry double walking frames-Sheet_24
+  - first:
+      213: 1535124739025361779
+    second: Character Design Terry double walking frames-Sheet_25
+  - first:
+      213: -8433348049204918538
+    second: Character Design Terry double walking frames-Sheet_26
+  - first:
+      213: 3700157166086948630
+    second: Character Design Terry double walking frames-Sheet_27
+  - first:
+      213: -1352310111445231842
+    second: Character Design Terry double walking frames-Sheet_28
+  - first:
+      213: 6145970291454011031
+    second: Character Design Terry double walking frames-Sheet_29
+  - first:
+      213: -8869889627671844789
+    second: Character Design Terry double walking frames-Sheet_30
+  - first:
+      213: -1076065906064034038
+    second: Character Design Terry double walking frames-Sheet_31
+  - first:
+      213: 5984033926000430107
+    second: Character Design Terry double walking frames-Sheet_32
+  - first:
+      213: 4757327592639600728
+    second: Character Design Terry double walking frames-Sheet_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 76
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eed1865f6df6d480800000000000000
+      internalID: -8874627361052434716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 76
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc873e93972f00e0800000000000000
+      internalID: -2301577369594917647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 76
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b87801ff8e4a2d0800000000000000
+      internalID: -3268231247372514528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 76
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f087bc6a3f8efe10800000000000000
+      internalID: 2233379946317185267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 76
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbfa82ac61368e60800000000000000
+      internalID: 7964107333704547318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 76
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1fc9aee871a5080800000000000000
+      internalID: -9198013386361867866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 76
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b234f61b284ebc40800000000000000
+      internalID: 5529936742363443895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 76
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260158e8bad4d6e20800000000000000
+      internalID: 3345415497431978082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 76
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc90eb3f0a6a8da0800000000000000
+      internalID: -5941820144700318533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 76
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee4ff19e786fa370800000000000000
+      internalID: 8335996328110673634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 76
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b589fbb794e31c0800000000000000
+      internalID: -4522096179989161190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 76
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a4ca69d3be30550800000000000000
+      internalID: 6125998567907412599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 76
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dced42d79f8077ff0800000000000000
+      internalID: -38552204169912627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 76
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891b50de38c9a1720800000000000000
+      internalID: 2817736607304888728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 76
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43642778bf9b60b80800000000000000
+      internalID: -8428845162616961484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 76
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7db3b123f9cac00800000000000000
+      internalID: 913279862003455917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 12
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85821c17482e4c3e0800000000000000
+      internalID: -2034252073192576936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 12
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb35e727b9d1c57b0800000000000000
+      internalID: -5234276113433340996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 12
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2d378d9fe146c80800000000000000
+      internalID: -8330499352301415733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 12
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92db1154922b8f250800000000000000
+      internalID: 5978724395656527145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 12
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb442b39a5081480800000000000000
+      internalID: -8928380036862161934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 12
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aceb36578da5948a0800000000000000
+      internalID: -6320420716308873526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 12
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6538e448c1f8a5b70800000000000000
+      internalID: 8888574167210689366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 12
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc2de67830d2ec60800000000000000
+      internalID: 7846062441764826332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 12
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a76f9fa18f77fc0800000000000000
+      internalID: -3497053790883382735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 12
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b558311dbdd4510800000000000000
+      internalID: 1535124739025361779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 12
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f648eb81aab6fa80800000000000000
+      internalID: -8433348049204918538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 12
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6178ab99659995330800000000000000
+      internalID: 3700157166086948630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 12
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1753255e11ab3de0800000000000000
+      internalID: -1352310111445231842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 12
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7966836da6fda4550800000000000000
+      internalID: 6145970291454011031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 12
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48a2b9d062d7e480800000000000000
+      internalID: -8869889627671844789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 12
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07f42a72cb0111f0800000000000000
+      internalID: -1076065906064034038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 12
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c4423a62f8b0350800000000000000
+      internalID: 5984033926000430107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Design Terry double walking frames-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 12
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85892777d3c650240800000000000000
+      internalID: 4757327592639600728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Character Design Terry double walking frames-Sheet_0: -8874627361052434716
+      Character Design Terry double walking frames-Sheet_1: -2301577369594917647
+      Character Design Terry double walking frames-Sheet_10: -4522096179989161190
+      Character Design Terry double walking frames-Sheet_11: 6125998567907412599
+      Character Design Terry double walking frames-Sheet_12: -38552204169912627
+      Character Design Terry double walking frames-Sheet_13: 2817736607304888728
+      Character Design Terry double walking frames-Sheet_14: -8428845162616961484
+      Character Design Terry double walking frames-Sheet_15: 913279862003455917
+      Character Design Terry double walking frames-Sheet_16: -2034252073192576936
+      Character Design Terry double walking frames-Sheet_17: -5234276113433340996
+      Character Design Terry double walking frames-Sheet_18: -8330499352301415733
+      Character Design Terry double walking frames-Sheet_19: 5978724395656527145
+      Character Design Terry double walking frames-Sheet_2: -3268231247372514528
+      Character Design Terry double walking frames-Sheet_20: -8928380036862161934
+      Character Design Terry double walking frames-Sheet_21: -6320420716308873526
+      Character Design Terry double walking frames-Sheet_22: 8888574167210689366
+      Character Design Terry double walking frames-Sheet_23: 7846062441764826332
+      Character Design Terry double walking frames-Sheet_24: -3497053790883382735
+      Character Design Terry double walking frames-Sheet_25: 1535124739025361779
+      Character Design Terry double walking frames-Sheet_26: -8433348049204918538
+      Character Design Terry double walking frames-Sheet_27: 3700157166086948630
+      Character Design Terry double walking frames-Sheet_28: -1352310111445231842
+      Character Design Terry double walking frames-Sheet_29: 6145970291454011031
+      Character Design Terry double walking frames-Sheet_3: 2233379946317185267
+      Character Design Terry double walking frames-Sheet_30: -8869889627671844789
+      Character Design Terry double walking frames-Sheet_31: -1076065906064034038
+      Character Design Terry double walking frames-Sheet_32: 5984033926000430107
+      Character Design Terry double walking frames-Sheet_33: 4757327592639600728
+      Character Design Terry double walking frames-Sheet_4: 7964107333704547318
+      Character Design Terry double walking frames-Sheet_5: -9198013386361867866
+      Character Design Terry double walking frames-Sheet_6: 5529936742363443895
+      Character Design Terry double walking frames-Sheet_7: 3345415497431978082
+      Character Design Terry double walking frames-Sheet_8: -5941820144700318533
+      Character Design Terry double walking frames-Sheet_9: 8335996328110673634
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

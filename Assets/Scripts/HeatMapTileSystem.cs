@@ -5,22 +5,16 @@ public class HeatMapTileVisual : MonoBehaviour
     
     private TileSetSystem<HeatMapVisualIntGridObject> thisTileSetForHeatMap;
     private Mesh currentobjectMesh;
+    private MeshRenderer currentobjectRenderer;
     private bool heatmapUpdated;
    
-   
-
-    //HeatMap Mesh Data
-    Vector3[] vertices;
-    Vector2[] uvs;
-    int[] triangles;
-
-    Vector3 tileOriginPosition = Vector3.zero;
     int tileIndex;
 
     private void Awake()
     {
         currentobjectMesh = new Mesh();
         GetComponent<MeshFilter>().mesh = currentobjectMesh;
+        
         heatmapUpdated = false;
     }
     public void SetCurrentTileSet(TileSetSystem<HeatMapVisualIntGridObject> tileSetForHeatMap) 
@@ -76,5 +70,6 @@ public class HeatMapTileVisual : MonoBehaviour
         currentobjectMesh.vertices = vertices;
         currentobjectMesh.uv = uvs;
         currentobjectMesh.triangles = triangles;
+      
     }
 }

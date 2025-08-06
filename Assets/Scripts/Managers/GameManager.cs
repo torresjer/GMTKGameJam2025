@@ -34,4 +34,12 @@ public class GameManager : Singleton<GameManager>
 
         return new Vector3(nextPos.x, nextPos.y, nextPos.z);
     }
+   public Vector3 ClampCameraPosToLvlBounds(Vector3 nextPos, float xOffset, float yOffset)
+    {
+        nextPos.x = Mathf.Clamp(nextPos.x, xMinMaxBoundsForLevel.x + xOffset, xMinMaxBoundsForLevel.y - xOffset);
+        nextPos.y = Mathf.Clamp(nextPos.y, yMinMaxBoundsForLevel.x + yOffset, yMinMaxBoundsForLevel.y - yOffset);
+        nextPos.z = Mathf.Clamp(nextPos.z, zMinMaxBoundsForLevel.x, zMinMaxBoundsForLevel.y);
+
+        return new Vector3(nextPos.x, nextPos.y, nextPos.z);
+    }
 }

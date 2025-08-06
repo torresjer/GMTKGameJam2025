@@ -1,16 +1,33 @@
 using System;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class CameraMovement : MonoBehaviour
 {
-    private Func<Vector3> GetCameraFollowTargetFunc;
 
     [SerializeField] float cameraFollowSpeed = 1.0f;
+    [SerializeField] float offsetPaddingFromcenterX;
+    [SerializeField] float offsetPaddingFromcenterY;
+
+    private Func<Vector3> GetCameraFollowTargetFunc;
+    private PixelPerfectCamera thisPixelPerfectCamera;
+
+    float offsetPositionFromCenterX;
+    float offsetPositionFromCenterY;
     float cameraZPos = -10.0f;
-  
+   
+
+    private void OnEnable()
+    {
+        thisPixelPerfectCamera = GetComponent<PixelPerfectCamera>();
+       
+        
+    }
     // Update is called once per frame
     void LateUpdate()
     {
+        offsetPositionFromCenterX = (thisPixelPerfectCamera.refResolutionX / thisPixelPerfectCamera.assetsPPU) + offsetPaddingFromcenterX;
+        offsetPositionFromCenterY = (thisPixelPerfectCamera.refResolutionY / thisPixelPerfectCamera.assetsPPU) + offsetPaddingFromcenterY;
         Vector3 cameraFollowTarget = GetCameraFollowTargetFunc();
         cameraFollowTarget.z = cameraZPos;
 
@@ -26,7 +43,8 @@ public class CameraMovement : MonoBehaviour
             {
                 newCameraPos = cameraFollowTarget;
             }
-            transform.position = newCameraPos;
+            
+            transform.position = GameManager.Instance.ClampCameraPosToLvlBounds(newCameraPos, offsetPositionFromCenterX, offsetPositionFromCenterY);
         }
     }
 

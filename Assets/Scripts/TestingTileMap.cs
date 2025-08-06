@@ -13,6 +13,8 @@ public class TestingTileMap : MonoBehaviour
 
 
     [SerializeField] Vector3 tileMapOrigin = Vector3.zero;
+    [SerializeField] int tileMapRenderLayerMask = 0;
+    [SerializeField] int tileMapSortingOrder = 0;
     [SerializeField] bool isHorizontalGrid = true;
     [SerializeField] int width;
     [SerializeField] int height;
@@ -21,6 +23,7 @@ public class TestingTileMap : MonoBehaviour
     [SerializeField] HeatMapTileVisual heatMapTileVisual;
     [SerializeField] bool hasHeatMapVisual = true;
     [SerializeField] AddingVauleShapes thisAddingValueShape = AddingVauleShapes.DecrementValueDistributionDiamond;
+  
 
     [SerializeField] bool boolTestValue = true;
     [SerializeField] int intTestValue = 5;
@@ -36,7 +39,7 @@ public class TestingTileMap : MonoBehaviour
     {
         //thisIntTileMap = new TileSetSystem<int>(this.transform, "IntTile", width, height, tileSize, isHorizontalGrid, tileMapOrigin, hasHeatMapVisual, showDebugVisual, () => default(int));
         //thisBoolTileMap = new TileSetSystem<bool>(this.transform, "BoolTile", width, height, tileSize, isHorizontalGrid, tileMapOrigin, hasHeatMapVisual, showDebugVisual, () => default(bool));
-        thisHeatMapVisualIntGridObject = new TileSetSystem<HeatMapVisualIntGridObject>(this.transform, "HeatMapTile", width, height, tileSize, isHorizontalGrid, tileMapOrigin, hasHeatMapVisual, showDebugVisual, (TileSetSystem<HeatMapVisualIntGridObject> tileSet) => new HeatMapVisualIntGridObject(tileSet));
+        thisHeatMapVisualIntGridObject = new TileSetSystem<HeatMapVisualIntGridObject>(this.transform, "HeatMapTile", width, height, tileSize, isHorizontalGrid, tileMapOrigin, hasHeatMapVisual, showDebugVisual, (TileSetSystem<HeatMapVisualIntGridObject> tileSet) => new HeatMapVisualIntGridObject(tileSet), tileMapSortingOrder, tileMapRenderLayerMask);
         if (hasHeatMapVisual)
         {
             if (heatMapTileVisual != null)

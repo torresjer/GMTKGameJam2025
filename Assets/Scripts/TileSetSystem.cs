@@ -29,7 +29,7 @@ public class TileSetSystem<T>
 
     TextMesh[,] debugArray;
 
-    public TileSetSystem(Transform parentGridObject, string tileGameObjectName, int width, int height, float tileSize, bool horizontalGrid, Vector3 originPosition, bool hasHeatMapVisual, bool showDebugVisual, Func<TileSetSystem<T>, T> IntializeGridObject)
+    public TileSetSystem(Transform parentGridObject, string tileGameObjectName, int width, int height, float tileSize, bool horizontalGrid, Vector3 originPosition, bool hasHeatMapVisual, bool showDebugVisual, Func<TileSetSystem<T>, T> IntializeGridObject, int sortingOrder, int renderLayerMask)
     {
         this.width = width;
         this.height = height;
@@ -58,13 +58,72 @@ public class TileSetSystem<T>
                 {
                     if (isHorizontalTileSet)
                     {
-                        debugArray[x, y] = Utilities.UI.CreateWorldText(tileGameObjectName, tiles[x, y]?.ToString(), parentGridObject, GetWorldPositionForHorizontalTile(x, y) + new Vector3(tileSize, tileSize) * .5f, 8, Color.white, TextAnchor.MiddleCenter, TextAlignment.Center);
+                        debugArray[x, y] = Utilities.UI.CreateWorldText(tileGameObjectName, tiles[x, y]?.ToString(), parentGridObject, GetWorldPositionForHorizontalTile(x, y) + new Vector3(tileSize, tileSize) * .5f, 8, Color.white, TextAnchor.MiddleCenter, TextAlignment.Center, sortingOrder, renderLayerMask);
                         Debug.DrawLine(GetWorldPositionForHorizontalTile(x, y), GetWorldPositionForHorizontalTile(x, y + 1), Color.white, 100f);
                         Debug.DrawLine(GetWorldPositionForHorizontalTile(x, y), GetWorldPositionForHorizontalTile(x + 1, y), Color.white, 100f);
                     }
                     else
                     {
-                        debugArray[x, y] = Utilities.UI.CreateWorldText(tileGameObjectName, tiles[x, y]?.ToString(), parentGridObject, GetWorldPositionForVerticalTile(x, y) + new Vector3(tileSize, tileSize) * .5f, 8, Color.white, TextAnchor.MiddleCenter, TextAlignment.Center);
+                        debugArray[x, y] = Utilities.UI.CreateWorldText(tileGameObjectName, tiles[x, y]?.ToString(), parentGridObject, GetWorldPositionForVerticalTile(x, y) + new Vector3(tileSize, tileSize) * .5f, 8, Color.white, TextAnchor.MiddleCenter, TextAlignment.Center, sortingOrder, renderLayerMask);
+                        Debug.DrawLine(GetWorldPositionForVerticalTile(x, y), GetWorldPositionForVerticalTile(x, y + 1), Color.white, 100f);
+                        Debug.DrawLine(GetWorldPositionForVerticalTile(x, y), GetWorldPositionForVerticalTile(x + 1, y), Color.white, 100f);
+                    }
+
+                }
+            }
+
+            if (isHorizontalTileSet)
+            {
+                Debug.DrawLine(GetWorldPositionForHorizontalTile(0, height), GetWorldPositionForHorizontalTile(width, height), Color.white, 100f);
+                Debug.DrawLine(GetWorldPositionForHorizontalTile(width, 0), GetWorldPositionForHorizontalTile(width, height), Color.white, 100f);
+            }
+            else
+            {
+                Debug.DrawLine(GetWorldPositionForVerticalTile(0, height), GetWorldPositionForVerticalTile(width, height), Color.white, 100f);
+                Debug.DrawLine(GetWorldPositionForVerticalTile(width, 0), GetWorldPositionForVerticalTile(width, height), Color.white, 100f);
+            }
+
+
+            OnTileValueChanged += HandleTileSetChange;
+        }
+    }
+
+    public TileSetSystem(Transform parentGridObject, string tileGameObjectName, int width, int height, float tileSize, bool horizontalGrid, Vector3 originPosition, bool hasHeatMapVisual, bool showDebugVisual, Func<TileSetSystem<T>, int, int, T> IntializeGridObject, int sortingOrder, int renderLayerMask)
+    {
+        this.width = width;
+        this.height = height;
+        this.tileSize = tileSize;
+        this.isHorizontalTileSet = horizontalGrid;
+        this.tileOriginPosition = originPosition;
+        this.hasHeatMapVisual = hasHeatMapVisual;
+
+        tiles = new T[width, height];
+        debugArray = new TextMesh[width, height];
+
+        //intialize custom object
+        for (int x = 0; x < tiles.GetLength(FIRST_DIMENTION); x++)
+        {
+            for (int y = 0; y < tiles.GetLength(SECOND_DIMENTION); y++)
+            {
+                tiles[x, y] = IntializeGridObject(this, x, y);
+            }
+        }
+
+        if (showDebugVisual)
+        {
+            for (int x = 0; x < tiles.GetLength(FIRST_DIMENTION); x++)
+            {
+                for (int y = 0; y < tiles.GetLength(SECOND_DIMENTION); y++)
+                {
+                    if (isHorizontalTileSet)
+                    {
+                        debugArray[x, y] = Utilities.UI.CreateWorldText(tileGameObjectName, tiles[x, y]?.ToString(), parentGridObject, GetWorldPositionForHorizontalTile(x, y) + new Vector3(tileSize, tileSize) * .5f, 6, Color.white, TextAnchor.MiddleCenter, TextAlignment.Center, sortingOrder, renderLayerMask);
+                        Debug.DrawLine(GetWorldPositionForHorizontalTile(x, y), GetWorldPositionForHorizontalTile(x, y + 1), Color.white, 100f);
+                        Debug.DrawLine(GetWorldPositionForHorizontalTile(x, y), GetWorldPositionForHorizontalTile(x + 1, y), Color.white, 100f);
+                    }
+                    else
+                    {
+                        debugArray[x, y] = Utilities.UI.CreateWorldText(tileGameObjectName, tiles[x, y]?.ToString(), parentGridObject, GetWorldPositionForVerticalTile(x, y) + new Vector3(tileSize, tileSize) * .5f, 6, Color.white, TextAnchor.MiddleCenter, TextAlignment.Center, sortingOrder, renderLayerMask);
                         Debug.DrawLine(GetWorldPositionForVerticalTile(x, y), GetWorldPositionForVerticalTile(x, y + 1), Color.white, 100f);
                         Debug.DrawLine(GetWorldPositionForVerticalTile(x, y), GetWorldPositionForVerticalTile(x + 1, y), Color.white, 100f);
                     }

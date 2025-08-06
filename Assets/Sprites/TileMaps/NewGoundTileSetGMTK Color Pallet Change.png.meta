@@ -1,0 +1,950 @@
+fileFormatVersion: 2
+guid: fa2ca1ee85234e64e8da130d9816b7b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3174293835713606632
+    second: NewGoundTileSetGMTK Color Pallet Change_0
+  - first:
+      213: -5499428439778477823
+    second: NewGoundTileSetGMTK Color Pallet Change_1
+  - first:
+      213: -2742660637871275166
+    second: NewGoundTileSetGMTK Color Pallet Change_2
+  - first:
+      213: -6990437968648887938
+    second: NewGoundTileSetGMTK Color Pallet Change_3
+  - first:
+      213: -4061456199735524554
+    second: NewGoundTileSetGMTK Color Pallet Change_4
+  - first:
+      213: -7259797044136834598
+    second: NewGoundTileSetGMTK Color Pallet Change_5
+  - first:
+      213: -6840278507712686993
+    second: NewGoundTileSetGMTK Color Pallet Change_6
+  - first:
+      213: -6213740486575473257
+    second: NewGoundTileSetGMTK Color Pallet Change_7
+  - first:
+      213: -3728524481118984995
+    second: NewGoundTileSetGMTK Color Pallet Change_8
+  - first:
+      213: 7693226977321641179
+    second: NewGoundTileSetGMTK Color Pallet Change_9
+  - first:
+      213: -6347778939797347877
+    second: NewGoundTileSetGMTK Color Pallet Change_10
+  - first:
+      213: 8196421906614682688
+    second: NewGoundTileSetGMTK Color Pallet Change_11
+  - first:
+      213: 1814593634196523900
+    second: NewGoundTileSetGMTK Color Pallet Change_12
+  - first:
+      213: 4182269061848084736
+    second: NewGoundTileSetGMTK Color Pallet Change_13
+  - first:
+      213: 1951378627168707862
+    second: NewGoundTileSetGMTK Color Pallet Change_14
+  - first:
+      213: -904188499310655753
+    second: NewGoundTileSetGMTK Color Pallet Change_15
+  - first:
+      213: 6514728198699162412
+    second: NewGoundTileSetGMTK Color Pallet Change_16
+  - first:
+      213: 7716880626886162961
+    second: NewGoundTileSetGMTK Color Pallet Change_17
+  - first:
+      213: -6811052762639214447
+    second: NewGoundTileSetGMTK Color Pallet Change_18
+  - first:
+      213: 7439925724620037515
+    second: NewGoundTileSetGMTK Color Pallet Change_19
+  - first:
+      213: -2028784509850784808
+    second: NewGoundTileSetGMTK Color Pallet Change_20
+  - first:
+      213: -3077810102404252734
+    second: NewGoundTileSetGMTK Color Pallet Change_21
+  - first:
+      213: -8055321796363758566
+    second: NewGoundTileSetGMTK Color Pallet Change_22
+  - first:
+      213: 634265134012034351
+    second: NewGoundTileSetGMTK Color Pallet Change_23
+  - first:
+      213: -4962307229781092674
+    second: NewGoundTileSetGMTK Color Pallet Change_24
+  - first:
+      213: -314053937443329425
+    second: NewGoundTileSetGMTK Color Pallet Change_25
+  - first:
+      213: 4514590991712383348
+    second: NewGoundTileSetGMTK Color Pallet Change_26
+  - first:
+      213: -4348252647982148331
+    second: NewGoundTileSetGMTK Color Pallet Change_27
+  - first:
+      213: 3312619725265245773
+    second: NewGoundTileSetGMTK Color Pallet Change_28
+  - first:
+      213: 3056256742140643556
+    second: NewGoundTileSetGMTK Color Pallet Change_29
+  - first:
+      213: -2802990203052237275
+    second: NewGoundTileSetGMTK Color Pallet Change_30
+  - first:
+      213: -205997329593186497
+    second: NewGoundTileSetGMTK Color Pallet Change_31
+  - first:
+      213: 2800635614023302392
+    second: NewGoundTileSetGMTK Color Pallet Change_32
+  - first:
+      213: -8034428918911322676
+    second: NewGoundTileSetGMTK Color Pallet Change_33
+  - first:
+      213: -7939878861303687109
+    second: NewGoundTileSetGMTK Color Pallet Change_34
+  - first:
+      213: 1360087971282989010
+    second: NewGoundTileSetGMTK Color Pallet Change_35
+  - first:
+      213: 123023091099808921
+    second: NewGoundTileSetGMTK Color Pallet Change_36
+  - first:
+      213: 8920695830021387913
+    second: NewGoundTileSetGMTK Color Pallet Change_37
+  - first:
+      213: 7588100610953806147
+    second: NewGoundTileSetGMTK Color Pallet Change_38
+  - first:
+      213: 2304852903096319501
+    second: NewGoundTileSetGMTK Color Pallet Change_39
+  - first:
+      213: 4906033228374610547
+    second: NewGoundTileSetGMTK Color Pallet Change_40
+  - first:
+      213: 6682182122625802316
+    second: NewGoundTileSetGMTK Color Pallet Change_41
+  - first:
+      213: 1965172478642555486
+    second: NewGoundTileSetGMTK Color Pallet Change_42
+  - first:
+      213: -4771110767799517739
+    second: NewGoundTileSetGMTK Color Pallet Change_43
+  - first:
+      213: 128422945374610369
+    second: NewGoundTileSetGMTK Color Pallet Change_44
+  - first:
+      213: -8479398727880132097
+    second: NewGoundTileSetGMTK Color Pallet Change_45
+  - first:
+      213: -7234926833834334600
+    second: NewGoundTileSetGMTK Color Pallet Change_46
+  - first:
+      213: -2028740179637476337
+    second: NewGoundTileSetGMTK Color Pallet Change_47
+  - first:
+      213: -1475750531586469849
+    second: NewGoundTileSetGMTK Color Pallet Change_48
+  - first:
+      213: 883512878089288941
+    second: NewGoundTileSetGMTK Color Pallet Change_49
+  - first:
+      213: -1976755236224725883
+    second: NewGoundTileSetGMTK Color Pallet Change_50
+  - first:
+      213: 4227078217668661927
+    second: NewGoundTileSetGMTK Color Pallet Change_51
+  - first:
+      213: 6840433705234049753
+    second: NewGoundTileSetGMTK Color Pallet Change_52
+  - first:
+      213: -2697205562814124658
+    second: NewGoundTileSetGMTK Color Pallet Change_53
+  - first:
+      213: 4329111546123696549
+    second: NewGoundTileSetGMTK Color Pallet Change_54
+  - first:
+      213: -1000616434880215675
+    second: NewGoundTileSetGMTK Color Pallet Change_55
+  - first:
+      213: 4040644163201285662
+    second: NewGoundTileSetGMTK Color Pallet Change_56
+  - first:
+      213: -6652403454579920880
+    second: NewGoundTileSetGMTK Color Pallet Change_57
+  - first:
+      213: 1046843335675647743
+    second: NewGoundTileSetGMTK Color Pallet Change_58
+  - first:
+      213: -2941131203346723235
+    second: NewGoundTileSetGMTK Color Pallet Change_59
+  - first:
+      213: -6772916620382659082
+    second: NewGoundTileSetGMTK Color Pallet Change_60
+  - first:
+      213: -9597212837684674
+    second: NewGoundTileSetGMTK Color Pallet Change_61
+  - first:
+      213: 6598745381345213503
+    second: NewGoundTileSetGMTK Color Pallet Change_62
+  - first:
+      213: -7010381037975068636
+    second: NewGoundTileSetGMTK Color Pallet Change_63
+  - first:
+      213: 2174487902225414986
+    second: NewGoundTileSetGMTK Color Pallet Change_64
+  - first:
+      213: 75779578162851220
+    second: NewGoundTileSetGMTK Color Pallet Change_65
+  - first:
+      213: -6156581461056088820
+    second: NewGoundTileSetGMTK Color Pallet Change_66
+  - first:
+      213: -7059235824524310928
+    second: NewGoundTileSetGMTK Color Pallet Change_67
+  - first:
+      213: -1308077154437572203
+    second: NewGoundTileSetGMTK Color Pallet Change_68
+  - first:
+      213: -5424487094320144641
+    second: NewGoundTileSetGMTK Color Pallet Change_69
+  - first:
+      213: -8452485413257902029
+    second: NewGoundTileSetGMTK Color Pallet Change_70
+  - first:
+      213: -3108271985127077828
+    second: NewGoundTileSetGMTK Color Pallet Change_71
+  - first:
+      213: -3262719272227273988
+    second: NewGoundTileSetGMTK Color Pallet Change_72
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9989096ff5c96844da6d4eae772a4426
+      internalID: -1650456572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7170875d836d3c4fba7a1c589b7eaef
+      internalID: 1014665245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff2b39bd717e434b80442fee6626d46
+      internalID: -623512903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb4c8498a584f240a1573b280179ec4
+      internalID: -1189061652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595a08ebde59ca04198f89375528e2ee
+      internalID: 68233580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0236f136ef4ae241a8501a0bfbbd0cc
+      internalID: -533235781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d48eacd0a819445815dcdc8afe32df
+      internalID: -1299059036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ec0136ccb613a4290bdf38ea5dcdea
+      internalID: -254923815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805b3a7f237086c488cb4b499048cc55
+      internalID: -1837403813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe936df7a0e119499b58558d3c325f5
+      internalID: 1607065173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bf2ff9ec389d241b5d36c4622a8482
+      internalID: 1841255434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce792087f5e3984b92bdb8baaa8bc75
+      internalID: -1755735451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91497f9ae5276bf4b8e648b8ac0b69fb
+      internalID: 1514186254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e076d02081c9446bb192121d70a914
+      internalID: -2003512416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87937abc9eb545d4b8a38437ebb50152
+      internalID: -1290678016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d290a1d30d724f4c862af838aa476a8
+      internalID: -924278330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7b488916aba714da2a5adc07b2789b
+      internalID: 1558179233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e904b7f5cb3df6a439bc75f186e561e6
+      internalID: 1009861509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3205580264ddcdc459d2b83472906340
+      internalID: 845383455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de6a2d098a3ba54c9c7ebca95589d54
+      internalID: -607550552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239b914f79337da489343f22ddba86a9
+      internalID: -1986272336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af71104d77c9e346b4f216ac855b0a6
+      internalID: -155763682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b18e28ce871fa47a3b6a82585d0eec
+      internalID: -1791990584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a2acb4dd398044e8157541008aad1c
+      internalID: -580892853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewGoundTileSetGMTK Color Pallet Change_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40b954f299cb314aa351db5ea6d636b
+      internalID: -1759613220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0931632d783157e4eac311f14505e591
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NewGoundTileSetGMTK Color Pallet Change_0: -1650456572
+      NewGoundTileSetGMTK Color Pallet Change_1: 1014665245
+      NewGoundTileSetGMTK Color Pallet Change_10: 1841255434
+      NewGoundTileSetGMTK Color Pallet Change_11: -1755735451
+      NewGoundTileSetGMTK Color Pallet Change_12: 1514186254
+      NewGoundTileSetGMTK Color Pallet Change_13: -2003512416
+      NewGoundTileSetGMTK Color Pallet Change_14: -1290678016
+      NewGoundTileSetGMTK Color Pallet Change_15: -924278330
+      NewGoundTileSetGMTK Color Pallet Change_16: 1558179233
+      NewGoundTileSetGMTK Color Pallet Change_17: 1009861509
+      NewGoundTileSetGMTK Color Pallet Change_18: 845383455
+      NewGoundTileSetGMTK Color Pallet Change_19: -607550552
+      NewGoundTileSetGMTK Color Pallet Change_2: -623512903
+      NewGoundTileSetGMTK Color Pallet Change_20: -1986272336
+      NewGoundTileSetGMTK Color Pallet Change_21: -155763682
+      NewGoundTileSetGMTK Color Pallet Change_22: -1791990584
+      NewGoundTileSetGMTK Color Pallet Change_23: -580892853
+      NewGoundTileSetGMTK Color Pallet Change_24: -1759613220
+      NewGoundTileSetGMTK Color Pallet Change_3: -1189061652
+      NewGoundTileSetGMTK Color Pallet Change_4: 68233580
+      NewGoundTileSetGMTK Color Pallet Change_5: -533235781
+      NewGoundTileSetGMTK Color Pallet Change_6: -1299059036
+      NewGoundTileSetGMTK Color Pallet Change_7: -254923815
+      NewGoundTileSetGMTK Color Pallet Change_8: -1837403813
+      NewGoundTileSetGMTK Color Pallet Change_9: 1607065173
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

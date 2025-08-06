@@ -9,14 +9,14 @@ namespace ReformEnt
     {
         public static class UI
         {
-            //Creates a Text object in the world at any position.
-            public static TextMesh CreateWorldText(string gameObjectName, string textToDisplay, Transform parent = null, Vector3 localPosition = default(Vector3), int fontSize = 12, Color color = default(Color), TextAnchor textAnchor = default(TextAnchor), TextAlignment textAlignment = default(TextAlignment), int sortingOrder = 0)
+            //Creates a Text object in the world at any localPosition.
+            public static TextMesh CreateWorldText(string gameObjectName, string textToDisplay, Transform parent = null, Vector3 localPosition = default(Vector3), int fontSize = 12, Color color = default(Color), TextAnchor textAnchor = default(TextAnchor), TextAlignment textAlignment = default(TextAlignment), int sortingOrder = 0, int renderingLayer = 0)
             {
                 if (color == default(Color))
                     color = Color.white;
-                return CreateWorldText(parent, gameObjectName, textToDisplay, localPosition, fontSize, color, textAnchor, textAlignment, sortingOrder);
+                return CreateWorldText(parent, gameObjectName, textToDisplay, localPosition, fontSize, color, textAnchor, textAlignment, sortingOrder, renderingLayer);
             }
-            public static TextMesh CreateWorldText(Transform parent, string gameObjectName, string textToDisplay, Vector3 localPosition, int fontSize, Color color, TextAnchor textAnchor, TextAlignment textAlignment, int sortingOrder)
+            public static TextMesh CreateWorldText(Transform parent, string gameObjectName, string textToDisplay, Vector3 localPosition, int fontSize, Color color, TextAnchor textAnchor, TextAlignment textAlignment, int sortingOrder, int renderingLayer)
             {
                 GameObject newText = new GameObject(gameObjectName, typeof(TextMesh));
                 Transform newTextTransform = newText.transform;
@@ -29,6 +29,7 @@ namespace ReformEnt
                 newTextMesh.fontSize = fontSize;
                 newTextMesh.color = color;
                 newTextMesh.GetComponent<MeshRenderer>().sortingOrder = sortingOrder;
+                newTextMesh.GetComponent<MeshRenderer>().renderingLayerMask = (uint)(1 << renderingLayer);
                 return newTextMesh;
             }
         }
@@ -401,6 +402,7 @@ namespace ReformEnt
                 triangles[tIndex + 4] = vIndex3;
                 triangles[tIndex + 5] = vIndex2;
             }
+            
         }
         public static class PixelMath
         {

@@ -47,7 +47,11 @@ TagManager:
   - name: GroundLevel
     uniqueID: 1185871565
     locked: 0
+  - name: HeatMapVisual
+    uniqueID: 521299411
+    locked: 0
   m_RenderingLayers:
   - Default
   - GroundLevel
   - Background
+  - HeatMapVisual
