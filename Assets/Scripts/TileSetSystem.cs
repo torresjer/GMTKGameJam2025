@@ -2,7 +2,7 @@ using ReformEnt;
 using System;
 using UnityEngine;
 
-public class TileSetSystem<T>
+public class TileSetSystem<T> 
 {
 
     public event EventHandler<OnTileValueChangeEventArgs> OnTileValueChanged;
@@ -25,18 +25,18 @@ public class TileSetSystem<T>
  
     float tileSize;
     bool isHorizontalTileSet;
-    bool hasHeatMapVisual;
+    bool hasVisual;
 
     TextMesh[,] debugArray;
 
-    public TileSetSystem(Transform parentGridObject, string tileGameObjectName, int width, int height, float tileSize, bool horizontalGrid, Vector3 originPosition, bool hasHeatMapVisual, bool showDebugVisual, Func<TileSetSystem<T>, T> IntializeGridObject, int sortingOrder, int renderLayerMask)
+    public TileSetSystem(Transform parentGridObject, string tileGameObjectName, int width, int height, float tileSize, bool horizontalGrid, Vector3 originPosition, bool hasVisual, bool showDebugVisual, Func<TileSetSystem<T>, T> IntializeGridObject, int sortingOrder, int renderLayerMask)
     {
         this.width = width;
         this.height = height;
         this.tileSize = tileSize;
         this.isHorizontalTileSet = horizontalGrid;
         this.tileOriginPosition = originPosition;
-        this.hasHeatMapVisual = hasHeatMapVisual;
+        this.hasVisual = hasVisual;
 
         tiles = new T[width, height];
         debugArray = new TextMesh[width, height];
@@ -87,7 +87,6 @@ public class TileSetSystem<T>
             OnTileValueChanged += HandleTileSetChange;
         }
     }
-
     public TileSetSystem(Transform parentGridObject, string tileGameObjectName, int width, int height, float tileSize, bool horizontalGrid, Vector3 originPosition, bool hasHeatMapVisual, bool showDebugVisual, Func<TileSetSystem<T>, int, int, T> IntializeGridObject, int sortingOrder, int renderLayerMask)
     {
         this.width = width;
@@ -95,7 +94,7 @@ public class TileSetSystem<T>
         this.tileSize = tileSize;
         this.isHorizontalTileSet = horizontalGrid;
         this.tileOriginPosition = originPosition;
-        this.hasHeatMapVisual = hasHeatMapVisual;
+        this.hasVisual = hasHeatMapVisual;
 
         tiles = new T[width, height];
         debugArray = new TextMesh[width, height];
@@ -159,15 +158,24 @@ public class TileSetSystem<T>
     {
         return new Vector3(x, 0, y) * tileSize + tileOriginPosition;
     }
-    public void GetTileObjectFromVerticalGrid(Vector3 worldPosition, out int x, out int y)
+    public void GetTileObjectIndexFromVerticalGrid(Vector3 worldPosition, out int x, out int y)
     {
         x = Mathf.FloorToInt((worldPosition - tileOriginPosition).x / tileSize);
         y = Mathf.FloorToInt((worldPosition - tileOriginPosition).y / tileSize);
+        if (((x > width) || (y > height)) || (x < 0) || (y < 0))
+        {
+            x = 0; y = 0;
+        }
+        Debug.Log("X2 = " + x + ", Y2 = " + y);
     }
     public void GetTileObjectFromHorizontalGrid(Vector3 worldPosition, out int x, out int y)
     {
         x = Mathf.FloorToInt((worldPosition - tileOriginPosition).x / tileSize);
         y = Mathf.FloorToInt((worldPosition - tileOriginPosition).z / tileSize);
+        if (((x > width - 1) && (y > height - 1)) || (x < 0) && (y < 0))
+        { 
+            x = 0; y = 0;
+        }
     }
     public T GetTileObject(int x, int y)
     {
@@ -192,7 +200,7 @@ public class TileSetSystem<T>
         }
         else
         {
-            GetTileObjectFromVerticalGrid(worldPosition, out x, out y);
+            GetTileObjectIndexFromVerticalGrid(worldPosition, out x, out y);
             currentTileIndex.x = x;
             currentTileIndex.y = y;
             return GetTileObject(x, y);
@@ -204,9 +212,10 @@ public class TileSetSystem<T>
     public int GetTileSetWidth() { return width; }
     public int GetTileSetHeight() { return height; }
     public bool GetTileSetIsHorizontal() { return isHorizontalTileSet; }
+    public bool GetHasVisual() {  return hasVisual; }
     public void SetTileObject(int x, int y, T value)
     {
-        if (!hasHeatMapVisual)
+        if (!hasVisual)
         {
             if ((x >= 0 && y >= 0) && (x < width && y < height))
             {
@@ -226,7 +235,7 @@ public class TileSetSystem<T>
         }
         else
         {
-            GetTileObjectFromVerticalGrid(worldPosition, out x, out y);
+            GetTileObjectIndexFromVerticalGrid(worldPosition, out x, out y);
             SetTileObject(x, y, value);
         }
     }
@@ -234,6 +243,4 @@ public class TileSetSystem<T>
     {
         OnTileValueChanged?.Invoke(this, new OnTileValueChangeEventArgs() { x = x, y = y });
     }
-
-
 }

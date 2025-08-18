@@ -11,9 +11,9 @@ public class PathFinding
     List<PathNodeTileObject> openList;
     HashSet<PathNodeTileObject> closeList;
 
-    public PathFinding(Transform parentGridObject, string tileGameObjectName, int width, int height, float tileSize, bool horizontalGrid, Vector3 originPosition, bool hasHeatMapVisual, bool showDebugVisual, int sortingOrder, int renderLayerMask)
+    public PathFinding(Transform parentGridObject, string tileGameObjectName, int width, int height, float tileSize, bool horizontalGrid, Vector3 originPosition, bool hasVisual, bool hasBlankVisual, bool showDebugVisual, int sortingOrder, int renderLayerMask)
     {
-        pathFindingTileSystem = new TileSetSystem<PathNodeTileObject>(parentGridObject, tileGameObjectName, width, height, tileSize, horizontalGrid, originPosition, hasHeatMapVisual, showDebugVisual,(TileSetSystem<PathNodeTileObject> g, int x, int y) => new PathNodeTileObject(g, x, y), sortingOrder, renderLayerMask);
+        pathFindingTileSystem = new TileSetSystem<PathNodeTileObject>(parentGridObject, tileGameObjectName, width, height, tileSize, horizontalGrid, originPosition, hasVisual, showDebugVisual,(TileSetSystem<PathNodeTileObject> g, int x, int y) => new PathNodeTileObject(g, x, y, hasBlankVisual), sortingOrder, renderLayerMask);
     }
 
     public List<PathNodeTileObject> FindPath(int startX, int startY, int endX, int endY)
@@ -130,12 +130,15 @@ public class PathFinding
     }
     private int CalculateDistanceCost(PathNodeTileObject a,  PathNodeTileObject b)
     {
-        int xDistance = Mathf.Abs(a.x - b.x);
-        int yDistance = Mathf.Abs(a.y - b.y);
-        int remaining = Mathf.Abs(xDistance - yDistance);
+        if (a != null && b != null)
+        {
+            int xDistance = Mathf.Abs(a.x - b.x);
+            int yDistance = Mathf.Abs(a.y - b.y);
+            int remaining = Mathf.Abs(xDistance - yDistance);
 
-        return MOVE_DIAGONAL_COST * Mathf.Min(xDistance, yDistance) + MOVE_STRAIGHT_COST * remaining;
-
+            return MOVE_DIAGONAL_COST * Mathf.Min(xDistance, yDistance) + MOVE_STRAIGHT_COST * remaining; 
+        }
+        return 0;
     }
     private PathNodeTileObject GetLowestFCostNode(List<PathNodeTileObject> pathNodeList)
     {

@@ -23,7 +23,6 @@ public class HeatMapTileVisual : MonoBehaviour
         UpdateHeatMapVisual();
 
     }
-
     private void ThisTileSetForHeatMap_OnTileValueChanged(object sender, TileSetSystem<HeatMapVisualIntGridObject>.OnTileValueChangeEventArgs e)
     {
        heatmapUpdated = true;
@@ -37,8 +36,6 @@ public class HeatMapTileVisual : MonoBehaviour
           
         }
     }
-
-
     private void UpdateHeatMapVisual()
     {
         ReformEnt.Utilities.MeshUtils.CreateEmptyMeshArrays(thisTileSetForHeatMap.GetTileSetWidth() * thisTileSetForHeatMap.GetTileSetHeight(), out Vector3[] vertices, out Vector2[] uvs, out int[] triangles);

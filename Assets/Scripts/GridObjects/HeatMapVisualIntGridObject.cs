@@ -61,7 +61,7 @@ public class HeatMapVisualIntGridObject
                 }
                 else
                 {
-                    thisTileSet.GetTileObjectFromVerticalGrid(worldPosition, out int originX, out int originY);
+                    thisTileSet.GetTileObjectIndexFromVerticalGrid(worldPosition, out int originX, out int originY);
 
                     for (int x = 0; x < totalRange; x++)
                     {
@@ -106,7 +106,7 @@ public class HeatMapVisualIntGridObject
                 }
                 else
                 {
-                    thisTileSet.GetTileObjectFromVerticalGrid(worldPosition, out int originX, out int origingY);
+                    thisTileSet.GetTileObjectIndexFromVerticalGrid(worldPosition, out int originX, out int origingY);
 
                     for (int x = 0; x < totalRange; x++)
                     {
@@ -163,7 +163,7 @@ public class HeatMapVisualIntGridObject
                 }
                 else
                 {
-                    thisTileSet.GetTileObjectFromVerticalGrid(worldPosition, out int originX, out int originY);
+                    thisTileSet.GetTileObjectIndexFromVerticalGrid(worldPosition, out int originX, out int originY);
 
                     for (int x = 0; x < totalRange; x++)
                     {
@@ -231,7 +231,7 @@ public class HeatMapVisualIntGridObject
                 }
                 else
                 {
-                    thisTileSet.GetTileObjectFromVerticalGrid(worldPosition, out int originX, out int originY);
+                    thisTileSet.GetTileObjectIndexFromVerticalGrid(worldPosition, out int originX, out int originY);
 
                     for (int x = 0; x < totalRange; x++)
                     {

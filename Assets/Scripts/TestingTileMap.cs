@@ -31,14 +31,12 @@ public class TestingTileMap : MonoBehaviour
     [SerializeField] int testRange = 5;
 
     [SerializeField] bool showDebugVisual = true;
-    TileSetSystem<int> thisIntTileMap;
-    TileSetSystem<bool> thisBoolTileMap;
     TileSetSystem<HeatMapVisualIntGridObject> thisHeatMapVisualIntGridObject;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //thisIntTileMap = new TileSetSystem<int>(this.transform, "IntTile", width, height, tileSize, isHorizontalGrid, tileMapOrigin, hasHeatMapVisual, showDebugVisual, () => default(int));
-        //thisBoolTileMap = new TileSetSystem<bool>(this.transform, "BoolTile", width, height, tileSize, isHorizontalGrid, tileMapOrigin, hasHeatMapVisual, showDebugVisual, () => default(bool));
+        //thisIntTileMap = new TileSetSystem<int>(this.transform, "IntTile", width, height, tileSize, isHorizontalGrid, tileMapOrigin, hasVisual, showDebugVisual, () => default(int));
+        //thisBoolTileMap = new TileSetSystem<bool>(this.transform, "BoolTile", width, height, tileSize, isHorizontalGrid, tileMapOrigin, hasVisual, showDebugVisual, () => default(bool));
         thisHeatMapVisualIntGridObject = new TileSetSystem<HeatMapVisualIntGridObject>(this.transform, "HeatMapTile", width, height, tileSize, isHorizontalGrid, tileMapOrigin, hasHeatMapVisual, showDebugVisual, (TileSetSystem<HeatMapVisualIntGridObject> tileSet) => new HeatMapVisualIntGridObject(tileSet), tileMapSortingOrder, tileMapRenderLayerMask);
         if (hasHeatMapVisual)
         {

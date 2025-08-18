@@ -60,7 +60,6 @@ public class PlayerMovement : MonoBehaviour
         }
      
         Vector3 changeInMovement = (transform.right * movementInput.x * _playerMovementSpeed + transform.up * movementInput.y * _playerMovementSpeed) * Time.deltaTime;
-        Debug.Log(changeInMovement);
         Vector3 nextPos = transform.position + changeInMovement;
 
         transform.position = GameManager.Instance.ClampPosToLvlBounds(nextPos);
