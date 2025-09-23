@@ -57,7 +57,7 @@ public class InputManager : Singleton<InputManager>
     public bool GetisRightClickPressed() { return IsRightClickPressed; }
     public Vector3 GetMouseWorldPosition() { return MouseWorldPosition; }
     public Vector2 GetMovementInput() { return MovementInput; }
-    public Vector2 GetRotationDirInput() { return InteractionInputs; }
+    public Vector2 GetInteractionInput() { return InteractionInputs; }
     public Vector2 GetScrollWheelInput() { return ScrollWheelInput; }
     void CheckMouseInput()
     {

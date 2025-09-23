@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: aece910cca8a0d8479196c52e7b2ccb0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6633907353410556313
+    second: Inventory Sprite-SheetRevised_0
+  - first:
+      213: 4516207985623818963
+    second: Inventory Sprite-SheetRevised_1
+  - first:
+      213: 7507921012446701720
+    second: Inventory Sprite-SheetRevised_2
+  - first:
+      213: -6646150048349047743
+    second: Inventory Sprite-SheetRevised_3
+  - first:
+      213: -2818242758537912920
+    second: Inventory Sprite-SheetRevised_4
+  - first:
+      213: 8480770818555776115
+    second: Inventory Sprite-SheetRevised_5
+  - first:
+      213: -2637963246181073054
+    second: Inventory Sprite-SheetRevised_6
+  - first:
+      213: 6044243546034771898
+    second: Inventory Sprite-SheetRevised_7
+  - first:
+      213: 332455192680380908
+    second: Inventory Sprite-SheetRevised_8
+  - first:
+      213: -5973366569102201501
+    second: Inventory Sprite-SheetRevised_9
+  - first:
+      213: -8398464171714261760
+    second: Inventory Sprite-SheetRevised_10
+  - first:
+      213: 704998086815956769
+    second: Inventory Sprite-SheetRevised_11
+  - first:
+      213: 7838505974225126183
+    second: Inventory Sprite-SheetRevised_12
+  - first:
+      213: 9006822291278503337
+    second: Inventory Sprite-SheetRevised_13
+  - first:
+      213: -4773268432057500537
+    second: Inventory Sprite-SheetRevised_14
+  - first:
+      213: -9032198470950002241
+    second: Inventory Sprite-SheetRevised_15
+  - first:
+      213: 3968145642143369259
+    second: Inventory Sprite-SheetRevised_16
+  - first:
+      213: -9150591846665857094
+    second: Inventory Sprite-SheetRevised_17
+  - first:
+      213: 7737762595143393208
+    second: Inventory Sprite-SheetRevised_18
+  - first:
+      213: 1505242055320622576
+    second: Inventory Sprite-SheetRevised_19
+  - first:
+      213: -6985903568461116277
+    second: Inventory Sprite-SheetRevised_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 367
+        width: 346
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76eac17f860afe3a0800000000000000
+      internalID: -6633907353410556313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 297
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2e3ea2c3bccae30800000000000000
+      internalID: 4516207985623818963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 297
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898a394d16e713860800000000000000
+      internalID: 7507921012446701720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 297
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144b53c6eb124c3a0800000000000000
+      internalID: -6646150048349047743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 297
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8add78e842793e8d0800000000000000
+      internalID: -2818242758537912920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 297
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c048d5020c1b570800000000000000
+      internalID: 8480770818555776115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_6
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 210
+        width: 113
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f37d47762146bd0800000000000000
+      internalID: -2637963246181073054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_7
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab799593b7771e350800000000000000
+      internalID: 6044243546034771898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_8
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9b27f7c3e1d9400800000000000000
+      internalID: 332455192680380908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_9
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d287fe0c65a1da0800000000000000
+      internalID: -5973366569102201501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d40223559a27b80800000000000000
+      internalID: -8398464171714261760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_11
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12fbef35608a8c900800000000000000
+      internalID: 704998086815956769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723477347a7f7cc60800000000000000
+      internalID: 7838505974225126183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_13
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad99ba5729aefc70800000000000000
+      internalID: 9006822291278503337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_14
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c70a1a6a1f1cdb0800000000000000
+      internalID: -4773268432057500537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_15
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1e236685f27a280800000000000000
+      internalID: -9032198470950002241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_16
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2848f8ff6fa11730800000000000000
+      internalID: 3968145642143369259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inventory Sprite-SheetRevised_17
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 113
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab755e68231920180800000000000000
+      internalID: -9150591846665857094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ffdce7d17d53ee542b3c3f44e9648d70
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Inventory Sprite-SheetRevised_0: -6633907353410556313
+      Inventory Sprite-SheetRevised_1: 4516207985623818963
+      Inventory Sprite-SheetRevised_10: -8398464171714261760
+      Inventory Sprite-SheetRevised_11: 704998086815956769
+      Inventory Sprite-SheetRevised_12: 7838505974225126183
+      Inventory Sprite-SheetRevised_13: 9006822291278503337
+      Inventory Sprite-SheetRevised_14: -4773268432057500537
+      Inventory Sprite-SheetRevised_15: -9032198470950002241
+      Inventory Sprite-SheetRevised_16: 3968145642143369259
+      Inventory Sprite-SheetRevised_17: -9150591846665857094
+      Inventory Sprite-SheetRevised_18: 7737762595143393208
+      Inventory Sprite-SheetRevised_19: 1505242055320622576
+      Inventory Sprite-SheetRevised_2: 7507921012446701720
+      Inventory Sprite-SheetRevised_20: -6985903568461116277
+      Inventory Sprite-SheetRevised_3: -6646150048349047743
+      Inventory Sprite-SheetRevised_4: -2818242758537912920
+      Inventory Sprite-SheetRevised_5: 8480770818555776115
+      Inventory Sprite-SheetRevised_6: -2637963246181073054
+      Inventory Sprite-SheetRevised_7: 6044243546034771898
+      Inventory Sprite-SheetRevised_8: 332455192680380908
+      Inventory Sprite-SheetRevised_9: -5973366569102201501
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

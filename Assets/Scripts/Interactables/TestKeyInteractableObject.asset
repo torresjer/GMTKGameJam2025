@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbccf833c49705d4f9d52a159317b656, type: 3}
+  m_Name: TestKeyInteractableObject
+  m_EditorClassIdentifier: 
+  ItemSprite: {fileID: -473836201422769840, guid: 155fa9f00064b9c49b00dbab6b66e360, type: 3}
+  ItemID: 000001
+  ItemName: TestKey
+  Description: 'This key was found on the floor outside of the mannor. It looks worn
+    and has a slight inscription on it. "___light" '
+  ItemType: 0
+  InteractedWith: 0

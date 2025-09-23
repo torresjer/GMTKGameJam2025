@@ -22,11 +22,15 @@ public class PathfindingTileSystem : MonoBehaviour
     
     TileSetSystemVisual<PathNodeTileObject> tileSetVisual = null;
     PathFinding thisPathFindingTileSystem;
+
+    public static event Action OnTileSystemReady;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         thisPathFindingTileSystem = new PathFinding(this.transform, "PathFindingNode", width, height, tileSize, isHorizontalGrid, tileMapOrigin, hasVisual, hasBlankVisual, showDebugVisual, tileMapSortingOrder, tileMapRenderLayerMask);
         tileSetVisual = new TileSetSystemVisual<PathNodeTileObject>(this.gameObject, thisPathFindingTileSystem.GetPathFindingTileSet());
+        OnTileSystemReady?.Invoke();
     }
 
     private void LateUpdate()
@@ -39,7 +43,7 @@ public class PathfindingTileSystem : MonoBehaviour
         
     }
     // Update is called once per frame
-    void Update()
+   /* void Update()
     {
         if (InputManager.Instance.GetisLeftClickPressed())
         {
@@ -59,13 +63,14 @@ public class PathfindingTileSystem : MonoBehaviour
         }
 
     }
+   */
     private void SetPathNodeToUnwalkable() 
     {
         Vector3 mousWorldPositon = InputManager.Instance.GetMouseWorldPosition();
         thisPathFindingTileSystem.GetPathFindingTileSet().GetTileObjectIndexFromVerticalGrid(mousWorldPositon, out int x, out int y);
         thisPathFindingTileSystem.GetNode(x, y).SetIsWalkable(!thisPathFindingTileSystem.GetNode(x, y).isWalkable, hasBlankVisual);
     }
-    public void CalculatePathForTwoPoints(Vector3 startPos, Vector3 endPos)
+    public List<Vector3> CalculatePathForTwoPoints(Vector3 startPos, Vector3 endPos)
     {
         List<PathNodeTileObject> path;
         if (!isHorizontalGrid)
@@ -80,16 +85,21 @@ public class PathfindingTileSystem : MonoBehaviour
             thisPathFindingTileSystem.GetPathFindingTileSet().GetTileObjectFromHorizontalGrid(endPos, out int x2, out int y2);
             path = thisPathFindingTileSystem.FindPath(x1, y1, x2, y2);
         }
+
+        List<Vector3> wayPoints = new List<Vector3>();
+
         if (path != null)
         {
-            for (int i = 0; i < path.Count - 1; i++)
+            foreach(PathNodeTileObject pathNode in path)
             {
-                Vector3 start = tileMapOrigin + new Vector3(path[i].x, path[i].y) * tileSize + Vector3.one * tileSize * 0.5f;
-                Vector3 end = tileMapOrigin + new Vector3(path[i + 1].x, path[i + 1].y) * tileSize + Vector3.one * tileSize * 0.5f;
-                Debug.DrawLine(start, end, Color.black, 5f, false);
+                Vector3 worldPos = tileMapOrigin + new Vector3(pathNode.x, pathNode.y) * tileSize + Vector3.one * tileSize * 0.5f;
+                worldPos.z = 0;
+                wayPoints.Add(worldPos);
             }
 
         }
+
+        return wayPoints;
     }
     public void CalculatePathFromPosToMouseClick(Vector3 startPos = default(Vector3))
     {

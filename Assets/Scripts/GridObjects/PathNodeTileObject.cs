@@ -15,7 +15,7 @@ public class PathNodeTileObject : TileObject<PathNodeTileObject>
         UnWalkable
     }
 
-    public PathNodeSprite nodeSprite;
+
     //Walking cost from start node
     public int gCost;
     //heuristic cost to reach end node
@@ -71,17 +71,14 @@ public class PathNodeTileObject : TileObject<PathNodeTileObject>
     {
         if (isWalkable && !hasBlankVisual)
         {
-            this.nodeSprite = PathNodeSprite.None;
             VisualState = PathNodeSprite.None;
         }
         if (isWalkable && hasBlankVisual)
         {
-            this.nodeSprite = PathNodeSprite.Blank;
             VisualState = PathNodeSprite.Blank;
         }
         if (!isWalkable)
         {
-            this.nodeSprite = PathNodeSprite.UnWalkable;
             VisualState = PathNodeSprite.UnWalkable;
         }
     }
@@ -125,6 +122,12 @@ public class PathNodeTileObject : TileObject<PathNodeTileObject>
     public void LoadPathNode(SaveObject saveObject)
     {
         VisualState = saveObject.pathNodeSprite;
+        if((PathNodeSprite)VisualState == PathNodeSprite.UnWalkable)
+           isWalkable = false;
+        else
+           isWalkable = true;
+        
+        tileSetSystem.TriggerGridObjectChanged(x, y);
     }
 
     [System.Serializable]

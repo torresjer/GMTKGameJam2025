@@ -40,7 +40,7 @@ public partial class @InputMap: IInputActionCollection2, IDisposable
                     ""name"": ""Interactions"",
                     ""type"": ""Value"",
                     ""id"": ""4990323a-8641-47df-b9f3-da557d261d65"",
-                    ""expectedControlType"": """",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
@@ -156,9 +156,9 @@ public partial class @InputMap: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""right"",
+                    ""name"": ""Left"",
                     ""id"": ""c0a00b82-3f0b-44ad-a524-9b4f9a3bbe6e"",
-                    ""path"": """",
+                    ""path"": ""<Keyboard>/tab"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
