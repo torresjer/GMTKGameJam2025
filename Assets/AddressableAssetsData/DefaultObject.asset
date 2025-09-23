@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecf62134718195b41a69a9baf5a1947d, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: 3a189bb168d8d90478a09ea08c2f3d72, type: 3}
+  m_Name: DefaultObject
   m_EditorClassIdentifier: 
-  InventoryName: Player Inventory
-  Inventory: []
-  currentInventoryIndex: 0
-  maxInventoryCapacity: 5
+  m_AddressableAssetSettingsGuid: 06234e70177d98c4ca442495f87fc1f3

@@ -1,52 +1,113 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class UIManager : Singleton<UIManager>
 {
-    GameObject InventoryUI;
-    List<GameObject> InventoryRows;
-    List<GameObject> InventorySlots;
-    bool InventoryOpen = false;
+
+    int currentInventorySpacesAvailable;
+
     float lastInventoryInputValue = 0;
     float currentInventoryInputValue = 0;
-
+    PlayerInventoryUI currentPlayerInventoryUI;
 
     private void OnEnable()
     {
-        InventoryUI = GameObject.FindGameObjectWithTag("InventoryUI");
-        InventoryUI.SetActive(InventoryOpen);
-        InventoryRows = new List<GameObject>();
-        InventorySlots = new List<GameObject>();
+        currentPlayerInventoryUI = new PlayerInventoryUI();
+        StartCoroutine(currentPlayerInventoryUI.LoadPlayerInventoryAsset("PlayerInventoryUI"));
     }
 
     private void Update()
     {
-        currentInventoryInputValue = PlayerInput.Instance.GetPlayerInteractionInput().x;
+        InventoryInput();
+    }
+   
+    void InventoryInput()
+    {
+        // guard clause until UI is loaded
+        if (currentPlayerInventoryUI == null || !currentPlayerInventoryUI.IsReady)
+            return;
 
         // The Left axis of the InteractionInput is Tab (mapped to -1.0)
-        if (InventoryUI != null)
+        currentInventoryInputValue = PlayerInput.Instance.GetPlayerInteractionInput().x;
+
+        // only fires once when the axis goes below -0.5f
+        bool pressed = currentInventoryInputValue < -0.5f && lastInventoryInputValue >= -0.5f;
+
+        if (pressed)
         {
-            bool pressed = currentInventoryInputValue < -0.5f && lastInventoryInputValue >= -0.5f;
-            // only fires once when the axis goes below -0.5f
+            currentPlayerInventoryUI.ToggleUI();
+        }
 
-            if (pressed)
+        lastInventoryInputValue = currentInventoryInputValue;
+        
+    }
+
+    public class PlayerInventoryUI
+    {
+      
+        public Inventories playerInventoryData { get; private set; }
+        public List<GameObject> PlayerInventoryUIGameObjects { get; private set; }
+        public List<GameObject> PlayerInventoryRows { get; private set; }
+        public List<GameObject> PlayerInventorySlots { get; private set; }
+
+        bool InventoryOpen = false;
+        public GameObject playerInventoryUI { get; private set; }
+        public bool IsReady => playerInventoryUI != null;
+        
+       
+        public PlayerInventoryUI() 
+        {
+            //This Corutine Intializes The PlayerInventoryUI Asynchronously.
+           
+        }
+        public IEnumerator LoadPlayerInventoryAsset(string assetAddress)
+        {
+            //Loads the Asset Asynchronously.
+            AsyncOperationHandle<GameObject> asset = Addressables.LoadAssetAsync<GameObject>(assetAddress);
+
+            yield return asset;
+
+            if(asset.Status == AsyncOperationStatus.Succeeded)
             {
-                InventoryOpen = !InventoryOpen;
-                if (InventoryOpen)
-                {
-                    foreach (Transform childTransform in InventoryUI.transform) 
-                    { 
-                        InventoryRows.Add(childTransform.gameObject);
-                        Debug.Log(childTransform.gameObject.name);
-                    }
-                }
+                GameObject prefab = asset.Result;
+                playerInventoryUI = GameObject.Instantiate(prefab);
+                playerInventoryUI.SetActive(false);
 
-                InventoryUI.SetActive(InventoryOpen);
+                Debug.Log($"Successfully loaded asset: {playerInventoryUI.name}");
+
+                PlayerInventoryUIGameObjects = new List<GameObject>();
+                PlayerInventoryRows = new List<GameObject>();
+                PlayerInventorySlots = new List<GameObject>();
+
+                if(InventoryManager.Instance != null)
+                    playerInventoryData = InventoryManager.Instance.GetInventoryByName("Player Inventory");
+           
+
+                GetAllPlayerInventoryUIGameObjects();
 
             }
+            else
+            {
+                Debug.LogError($"Failed to load asset at address: {assetAddress}");
+            }
 
-            lastInventoryInputValue = currentInventoryInputValue;
+        
+        }
+        public void ToggleUI()
+        {
+            InventoryOpen = !InventoryOpen; ;
+            playerInventoryUI.SetActive(InventoryOpen);
+        }
+        void GetAllPlayerInventoryUIGameObjects()
+        {
+            foreach (Transform childTransform in playerInventoryUI.transform)
+            {
+                PlayerInventoryUIGameObjects.Add(childTransform.gameObject);
+                Debug.Log(childTransform.gameObject.name);
+            }
         }
     }
 
