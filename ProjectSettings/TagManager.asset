@@ -8,6 +8,7 @@ TagManager:
   - InteractableObject
   - InventoryUI
   - PlayerInventoryUI
+  - InventoryRow
   layers:
   - Default
   - TransparentFX

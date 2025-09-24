@@ -9,11 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecf62134718195b41a69a9baf5a1947d, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: 5834b5087d578d24c926ce20cd31e6d6, type: 3}
+  m_Name: UIGameEvents_ContentUpdateGroupSchema
   m_EditorClassIdentifier: 
-  OnDataChanged: {fileID: 0}
-  InventoryName: PlayerInventory
-  Inventory: []
-  currentInventoryIndex: 0
-  maxInventoryCapacity: 7
+  m_Group: {fileID: 11400000, guid: b85491d9ba310a343a742af41a58c5db, type: 2}
+  m_StaticContent: 0

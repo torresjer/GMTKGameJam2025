@@ -1,12 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class UIManager : Singleton<UIManager>
 {
-
+    [SerializeField] GameEvent playerUIDataChangeGameEvent;
     int currentInventorySpacesAvailable;
 
     float lastInventoryInputValue = 0;
@@ -16,7 +18,7 @@ public class UIManager : Singleton<UIManager>
     private void OnEnable()
     {
         currentPlayerInventoryUI = new PlayerInventoryUI();
-        StartCoroutine(currentPlayerInventoryUI.LoadPlayerInventoryAsset("PlayerInventoryUI"));
+        StartCoroutine(currentPlayerInventoryUI.LoadPlayerInventoryAsset("PlayerInventoryUI", playerUIDataChangeGameEvent));
     }
 
     private void Update()
@@ -44,26 +46,31 @@ public class UIManager : Singleton<UIManager>
         lastInventoryInputValue = currentInventoryInputValue;
         
     }
+    private void OnDestroy()
+    {
+        if(currentPlayerInventoryUI != null)
+        {
+            currentPlayerInventoryUI.ShutPlayerInventoryUIDown();
+        }
+    }
 
     public class PlayerInventoryUI
     {
-      
+        const int MAX_SLOTS_AVAILABLE = 15;
+        const int MAX_SLOTS_PER_ROW = 5;
+        
+        private GameEvent _gameEvent;
+        private Action _onEventCallback;
+
+
         public Inventories playerInventoryData { get; private set; }
         public List<GameObject> PlayerInventoryUIGameObjects { get; private set; }
         public List<GameObject> PlayerInventoryRows { get; private set; }
-        public List<GameObject> PlayerInventorySlots { get; private set; }
-
+        Dictionary<string, List<GameObject>> slotsForInventoryRows = new Dictionary<string, List<GameObject>>();
         bool InventoryOpen = false;
         public GameObject playerInventoryUI { get; private set; }
         public bool IsReady => playerInventoryUI != null;
-        
-       
-        public PlayerInventoryUI() 
-        {
-            //This Corutine Intializes The PlayerInventoryUI Asynchronously.
-           
-        }
-        public IEnumerator LoadPlayerInventoryAsset(string assetAddress)
+        public IEnumerator LoadPlayerInventoryAsset(string assetAddress, GameEvent gameEvent)
         {
             //Loads the Asset Asynchronously.
             AsyncOperationHandle<GameObject> asset = Addressables.LoadAssetAsync<GameObject>(assetAddress);
@@ -78,19 +85,26 @@ public class UIManager : Singleton<UIManager>
 
                 Debug.Log($"Successfully loaded asset: {playerInventoryUI.name}");
 
+                _gameEvent = gameEvent;
+                _onEventCallback = IntializeInventoryUI;
+                _gameEvent.RegisterListener(_onEventCallback);
+
                 PlayerInventoryUIGameObjects = new List<GameObject>();
                 PlayerInventoryRows = new List<GameObject>();
-                PlayerInventorySlots = new List<GameObject>();
 
-                if(InventoryManager.Instance != null)
-                    playerInventoryData = InventoryManager.Instance.GetInventoryByName("Player Inventory");
-           
-
-                GetAllPlayerInventoryUIGameObjects();
+                if(InventoryManager.Instance.IsReady)
+                {
+                    IntializeInventoryUI();
+                }
+                else
+                {
+                    InventoryManager.Instance.OnInventoriesLoaded += IntializeInventoryUI;
+                }
 
             }
             else
             {
+              
                 Debug.LogError($"Failed to load asset at address: {assetAddress}");
             }
 
@@ -101,6 +115,20 @@ public class UIManager : Singleton<UIManager>
             InventoryOpen = !InventoryOpen; ;
             playerInventoryUI.SetActive(InventoryOpen);
         }
+        void IntializeInventoryUI()
+        {
+            InventoryManager.Instance.OnInventoriesLoaded -= IntializeInventoryUI;
+            playerInventoryData = InventoryManager.Instance.GetInventoryByName("PlayerInventory");
+            if (playerInventoryData == null) 
+            {
+                Debug.LogError("Player Inventory not Found!");
+                return;
+            }
+
+            GetAllPlayerInventoryUIGameObjects();
+            GetPlayerInventoryRows();
+            IntializeRowsBasedOnAvailableInventorySlots();
+        }
         void GetAllPlayerInventoryUIGameObjects()
         {
             foreach (Transform childTransform in playerInventoryUI.transform)
@@ -108,6 +136,70 @@ public class UIManager : Singleton<UIManager>
                 PlayerInventoryUIGameObjects.Add(childTransform.gameObject);
                 Debug.Log(childTransform.gameObject.name);
             }
+
+        }
+        void GetPlayerInventoryRows()
+        {
+            PlayerInventoryUIGameObjects.ForEach(gameObject =>
+            {
+                //Getting the rows 
+                if (gameObject.CompareTag("InventoryRow"))
+                {
+                    PlayerInventoryRows.Add(gameObject);
+                    gameObject.SetActive(false);
+                }
+            });
+        }
+        void IntializeRowsBasedOnAvailableInventorySlots()
+        {
+            Debug.Log(playerInventoryData.GetMaxInventoryCapacity());
+
+            int playerInventoryCapcity = playerInventoryData.GetMaxInventoryCapacity();
+            if ( playerInventoryCapcity > MAX_SLOTS_AVAILABLE)
+                playerInventoryCapcity = MAX_SLOTS_AVAILABLE;
+            if (playerInventoryCapcity < 0)
+                playerInventoryCapcity = 0;
+            
+            int activeRows = playerInventoryCapcity / MAX_SLOTS_PER_ROW;
+            int slotsRemaining = playerInventoryCapcity % MAX_SLOTS_PER_ROW;
+            if (slotsRemaining > 0)
+                activeRows += 1;
+
+            Debug.Log($"active rows {activeRows} slots reamaining {slotsRemaining}");
+            for(int i = 0; i < activeRows; i++)
+            {
+                PlayerInventoryRows[i].SetActive(true);
+                List<GameObject> slotsForCurrentRow = new List<GameObject>();
+                foreach(Transform childTransform in PlayerInventoryRows[i].transform)
+                {
+                    slotsForCurrentRow.Add(childTransform.gameObject);
+                }
+                slotsForInventoryRows.Add(PlayerInventoryRows[i].name, slotsForCurrentRow);
+
+                int slotsToActivate;
+                if (i < activeRows - 1)
+                {
+                    // Full row
+                    slotsToActivate = MAX_SLOTS_PER_ROW;
+                }
+                else
+                {
+                    // Last row might not be full
+                    slotsToActivate = (slotsRemaining > 0) ? slotsRemaining : MAX_SLOTS_PER_ROW;
+                }
+
+                // Activate only the slots we need
+                for (int j = 0; j < slotsToActivate; j++)
+                {
+                    slotsForCurrentRow[j].SetActive(true);
+                }
+
+            }
+          
+        }
+        public void ShutPlayerInventoryUIDown()
+        {
+            _gameEvent.UnregisterListener(_onEventCallback);
         }
     }
 

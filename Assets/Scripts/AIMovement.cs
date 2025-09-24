@@ -35,11 +35,6 @@ public class AIMovement : MonoBehaviour
         if (walkPatternPositions != null && walkPatternPositions.Count > 1)
             SetNewPath(transform.position, walkPatternPositions[0].position);
     }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
@@ -75,6 +70,7 @@ public class AIMovement : MonoBehaviour
             if (AISpriteRenderer != null)
                 AISpriteRenderer.flipX = false;
         }
+
         transform.position += moveDir * moveSpeed * Time.deltaTime;
 
         // If close enough to current target, move to next

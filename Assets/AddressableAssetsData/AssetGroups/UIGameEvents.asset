@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UIGameEvents
+  m_EditorClassIdentifier: 
+  m_GroupName: UIGameEvents
+  m_GUID: ad24240973a059444b4923a1c637490a
+  m_SerializeEntries:
+  - m_GUID: e5f51f7e6ef7ecb42ba85fd3b0ba9489
+    m_Address: Assets/Scripts/GameEvents/UIGameEvents/PlayerInventoryDataChanged.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIGameEvent
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 06234e70177d98c4ca442495f87fc1f3, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 64786f03c474cff42a0da95ad91dcf39, type: 2}
+    - {fileID: 11400000, guid: e4741fd0feb56064c8cf8e686c9e74e9, type: 2}
